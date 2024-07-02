@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #3d1e6d;
+}
+.todoList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    row-gap: 20px;
+    margin-top: 30px;
+}
+
+#Input {
+    border: 3px solid #00aedb;
+    width: 500px;
+    height: 35px;
+    border-radius: 6px;
+    padding: 8px;
+}
+#sumbit {
+    /* margin-top: 20px; */
+    border-radius: 6px;
+    width: 125px;
+    margin-left: 20px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #a8e6cf;
+    border: 3px solid #00aedb;
+    color: #ffc425;
+    font-weight: 600;
+}
+.block {
+    border: 3px solid #add6ff;
+    background-color: #8874a3;
+    width: 650px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;   
+    height: 35px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    color: #e4dcf1;
+}
+
+.commonButtons {
+    display: flex;
+    justify-content: end;
+    margin-top: -20px;
+    column-gap: 10px;
+}
+
+.increment {
+    background-color: #88d8b0;
+    border: 2px solid #00b159;
+    color: #2e003e;
+    width: 50px;
+    cursor: pointer;
+}
+
+.decrement {
+    background-color: #ee4035;
+    width: 60px;
+    border: 2px solid red;
+    color: #2e003e;
+    cursor: pointer;
+}
